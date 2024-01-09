@@ -1,5 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .conteiner {
-  background-color: #4d4dff;
+  background-color: #2020fa;
   width: 30pc;
   height: 30pc;
   display: flex;
@@ -12,9 +17,15 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.Vx,
-.Lg {
-  color: azure;
+.Vx {
+  color: #4a4a4a;
+  transform: translateY(-140px);
+  font-family: 'Open Sans', sans-serif;
+}
 
+
+.inputs{
+  border: none;
+  height: 100px;
 }
 
